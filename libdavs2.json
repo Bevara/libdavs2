@@ -1,0 +1,17 @@
+{
+    "name": "libdavs2",
+    "description": "AVS2 (AVS2-P2) video decoder",
+    "filters":["avs2dec"],
+    "help": "This filter decodes raw AVS2 elementary streams using davs2.",
+    "support": [
+        "video"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libdavs2.accessor",
+    "filter_source":{
+        "avs2dec" : "dec_avs2.c"
+    },
+    "extension":{
+      "avs2" : "video"
+    },
+    "licence_required":false
+}
