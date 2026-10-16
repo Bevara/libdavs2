@@ -13,6 +13,10 @@
     "extension":{
       "avs2" : "video"
     },
-    "licence_required":false,
-    "using": ["solver_1"]
+    "using": ["solver_1"],
+    "patents": {
+        "status": "licence-required",
+        "note": "AVS2: AVS patent pool",
+        "checked": "2026-10-16"
+    }
 }
