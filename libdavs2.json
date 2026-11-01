@@ -1,5 +1,6 @@
 {
     "name": "libdavs2",
+    "version": "1.0.1",
     "description": "AVS2 (AVS2-P2) video decoder",
     "filters":["avs2dec"],
     "help": "This filter decodes raw AVS2 elementary streams using davs2.",
@@ -13,7 +14,7 @@
     "extension":{
       "avs2" : "video"
     },
-    "using": ["solver_1"],
+    "using": ["mm_solver_1.0.1"],
     "patents": {
         "status": "licence-required",
         "note": "AVS2: AVS patent pool",
